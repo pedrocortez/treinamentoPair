@@ -15,5 +15,16 @@ public class ArraysDSTest {
 		assertArrayEquals(new int[]{4,3,2,1}, reverseArray);
 		
 	}
+	
+	
+	@Test
+	public void reverseSample2() {
+		int[] test = new int[]{1,2,3,4};
+		ArraysDS ds = new ArraysDS();
+		int[] reverseArray = ds.reverseArray(test);
+		
+		assertArrayEquals(new int[]{4,3,2,1}, reverseArray);
+		
+	}
 
 }
